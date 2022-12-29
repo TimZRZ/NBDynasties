@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_3DMap
+  m_Shader: {fileID: 4800000, guid: 5da2019f91c394a76820a512da3c1163, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: e0805ea11be6b4f8cbb0bfa4b02782f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMapTex:
+        m_Texture: {fileID: 2800000, guid: 922eae0d85a5f4fb995c666f09cf4804, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e8d07cd169c5349c290f8f610b525f87, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: dd81d07ed6d74453eb5e23eb903a02c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaletteTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RemapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainMapTex:
+        m_Texture: {fileID: 2800000, guid: 0582619819cb0420cb77ea7def6455ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormalMap:
+        m_Texture: {fileID: 2800000, guid: 9573f89ee503d4c00a858138ad9f6c7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DistanceDensity: 0.01
+    - _FoamContribution: 1
+    - _FoamNoiseScale: 0.5
+    - _FoamScale: 80
+    - _FoamSpeed: 0.2
+    - _WaterDepthDensity: 0.78
+    - _WaveNormalScale: 80
+    - _WaveNormalSpeed: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepWaterColor: {r: 0, g: 0.05, b: 0.19, a: 1}
+    - _FarWaterColor: {r: 0.04, g: 0.27, b: 0.75, a: 1}
+    - _RiverColor: {r: 0.39215687, g: 0.5882353, b: 1, a: 1}
+    - _SeaColor: {r: 0, g: 0.39215687, b: 1, a: 1}
+    - _ShallowWaterColor: {r: 0.44, g: 0.95, b: 0.36, a: 1}
+  m_BuildTextureStacks: []
